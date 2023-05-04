@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/article_h"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#82E0AA"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/article"
+            />
+
+        <TextView
+            android:id="@+id/article_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পর্ণ-আসক্তি থেকে মুক্তির উপায়"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:maxLines="1"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

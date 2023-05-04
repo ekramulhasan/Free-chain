@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7DCEA0"
+    android:layout_margin="7dp"
+    >
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="250px"
+        android:layout_height="300px"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_toRightOf="@+id/img_view"
+        android:layout_width="wrap_content"
+        android:text="Ekramul Hasan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_name"
+        android:layout_toRightOf="@+id/img_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#82E0AA"
+        android:textSize="11dp"
+        android:text="পড়ুন"
+
+        />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_name"
+        android:layout_toRightOf="@id/read"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#82E0AA"
+        android:textSize="11dp"
+        android:text="ডাউনলোড"
+
+        />
+
+
+
+
+</RelativeLayout>
